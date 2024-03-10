@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+
+We are borrowing this template for use with the capstone program
+-->
+
+<html lang="en">
+<head>
+  <title>HI</title> <!-- EDIT YOUR NAME HERE -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#projects">Projects</a></li> 
+				  <li><a href="resume.pdf">Resume</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                <!-- Main Image (UPDATE YOUR OWN PHOTO TO THE REPO!) -->
+                <img class="img-responsive" src="photo.jpg" alt=""><br>
+                
+		<!-- UPDATE THE TEXT BELOW HERE WITH YOUR OWN TEXT -->
+                <div style="margin-top:3%; text-align:justify;">
+					<!--
+					This is where you would introduce yourself. You might include links to things <a href="//google.com">RANDOM LINK TO GOOGLE</a>. You might have links to outside websites or things like your resume.
+					
+					You might also talk about groups that you have worked with (and perhaps link to them), and/or put your interests here!
+					
+					<p>The goal is to give potential employers some idea of who you are (to convince them that you are skilled, professional, and personable!) 
+					-->
+			
+			                <p> I'm a Master's Student in Biostatistics at the University of Washington. I have a Bachelor's degree in mathematics from Pomona College. My past experiences include an internship at Genentech where I developed and employed methodology for differential gene expression testing using paraffin embedded tissue; as well as a collaborative experience with the <a href="https://www.cff.org/researchers/therapeutics-development-network"> Therapeutics Development Network </a> supporting the design of randomized interventional trials for cystic fibrosis. </p>
+					
+					<p> I am broadly interested in Biostatistics and Data Science, and enjoy the process of engaging domain science, statistical models and programmatic data analysis. </p>
+			
+					<p> For more information about me, please check out my <a href="resume.pdf">resume</a>, or reach out via email or <a href="https://www.linkedin.com/in/noah-simon-04bb83bb">linkedin</a>.
+					
+                </div>
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>STUDENT STUDENTSON</b></div><br>
+                <p><b>abc@uw.edu</b><br>
+                <p>Biostatistics Master's Student<br>
+		<p> University of Washington <br>
+                </p>
+            </div>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://www.linkedin.com/in/noah-simon-04bb83bb">LinkedIn</a></dd>
+            </div>
+            
+		
+		            <!-- Projects -->
+            <div class="col-md-8" style="height: 100vh;">    
+                <h2 id="projects">Projects</h2>
+		<strong>Differential expression analysis with paraffin embedded (FFPE) tissue</strong><br>
+                <ul>
+                <li> Developed methods and software (in R) to calculate gene expression from probe-level microarray data using FFPE tissue samples. </li>
+		<li> Collaborated with biomarker scientists and employed this method/software to identify differentially expressed genes in breast tumor tissue (as compared to healthy control tissue).</li>
+		</ul>
+		<strong>Comparison of Machine Learning (ML) Methods for Survival Data</strong><br>
+                <ul>
+                <li> Developed a simulation study to compare ML methods for predicting survival outcome. </li>
+		<li> Wrote parallelized code (and deployed on AWS EC2) to efficiently run simulation study.</li>
+		</ul>
+		<strong><a href = "https://github.com/nrs02004/Jiujitsu-ELO">Ranking Models for Jiujitsu Competitors</a></strong><br>
+                <ul>
+                <li> Developed R/C++ code for efficiently fitting penalized conditional logistic regression. </li>
+		<li> Applied this to a novel dataset with ~2.5k competitors and ~8k matches to identify top competitors.</li>
+		<li> Empirically explored the impact of tuning parameter selection in this problem. </li>
+		</ul>
+		    
+
+            </div>
+
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
